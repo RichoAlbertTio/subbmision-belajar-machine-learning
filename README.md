@@ -1,5 +1,4 @@
-# 🚲 Bike Sharing Analysis Project
-Project Akhir Belajar Analisis Data dengan Python | Dicoding
+# Bike Sharing Analysis Project
 ## ⌨️ Setup Environment - Shell/Terminal
 - mkdir Submission
 - cd Submission
@@ -7,11 +6,11 @@ Project Akhir Belajar Analisis Data dengan Python | Dicoding
 - pipenv shell
 - pip install -r requirements.txt
 
-## 🏃 Run Streamlit-app
+## Run Streamlit-app
 - cd Dashboard
 - streamlit run dashboard.py
 
-## 🗒️ Analisis Data dengan Python
+## Analisis Data dengan Python
 **Mendefinisikan pertanyaan bisnis**
 Pertanyaan 1: Bagaimana pengaruh waktu terhadap jumlah penyewaan sepeda?
 Pertanyaan 2: Bagaimana perbandingan pola penyewaan sepeda pada hari kerja dan akhir pekan?
@@ -21,7 +20,7 @@ Pertanyaan 5: Bagaimana hubungan antara jumlah penyewaan pengguna terdaftar (reg
 Pertanyaan 6: Bagaimana pengaruh workingday terhadap penyewaan sepeda untuk pengguna kasual dan terdaftar?
 
 
-**📖 Kesimpulan yang didapat**
+** Kesimpulan yang didapat**
 1. Pengaruh Waktu terhadap Jumlah Penyewaan Sepeda
 Kesimpulan: Penyewaan sepeda menunjukkan pola yang jelas terkait waktu. Aktivitas penyewaan meningkat tajam pada pagi hari (sekitar pukul 08:00) dan sore hari (sekitar pukul 17:00), yang kemungkinan besar disebabkan oleh perjalanan kerja atau sekolah. Hal ini menunjukkan bahwa sepeda digunakan sebagai moda transportasi pada jam sibuk.
 
