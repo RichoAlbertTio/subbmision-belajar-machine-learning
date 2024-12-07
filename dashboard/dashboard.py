@@ -10,8 +10,8 @@ st.write(os.listdir())
 
 
 # Baca dataset
-file_path_day = '../data/day.csv'  # Ganti dengan path sebenarnya ke file CSV Anda
-file_path_hour = '../data/hour.csv'  # Ganti dengan path sebenarnya ke file CSV Anda
+file_path_day = 'data/day.csv'  # Ganti dengan path sebenarnya ke file CSV Anda
+file_path_hour = 'data/hour.csv'  # Ganti dengan path sebenarnya ke file CSV Anda
 data_day = pd.read_csv(file_path_day)
 data_hour = pd.read_csv(file_path_hour)
 
