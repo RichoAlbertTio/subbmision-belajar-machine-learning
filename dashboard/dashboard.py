@@ -3,6 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+import os
+
+# Tampilkan daftar file di direktori aplikasi
+st.write(os.listdir())
 
 
 # Baca dataset
