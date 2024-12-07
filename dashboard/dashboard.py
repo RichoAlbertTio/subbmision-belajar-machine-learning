@@ -120,10 +120,21 @@ st.pyplot(fig6)
 # Menampilkan kesimpulan
 st.subheader("Kesimpulan:")
 st.write("""
-1. **Pengaruh Waktu terhadap Jumlah Penyewaan Sepeda**: Penyewaan sepeda meningkat pada pagi dan sore hari.
-2. **Pola Penyewaan Sepeda pada Hari Kerja dan Akhir Pekan**: Pengguna kasual lebih aktif di akhir pekan.
-3. **Pengaruh Cuaca**: Cuaca yang nyaman (suhu sedang, kelembapan rendah) meningkatkan penyewaan sepeda.
-4. **Pola Penyewaan Berdasarkan Hari dalam Seminggu**: Penyewaan sepeda sedikit lebih rendah pada hari kerja tertentu.
-5. **Hubungan Pengguna Terdaftar dan Kasual**: Pengguna terdaftar lebih aktif pada hari kerja, pengguna kasual lebih aktif pada akhir pekan.
-6. **Pengaruh Workingday**: Pengguna terdaftar lebih banyak pada hari kerja, sedangkan pengguna kasual lebih banyak pada akhir pekan.
+# 1. Pengaruh Waktu terhadap Jumlah Penyewaan Sepeda
+**Kesimpulan**: Penyewaan sepeda menunjukkan pola yang jelas terkait waktu. Aktivitas penyewaan meningkat tajam pada pagi hari (sekitar pukul 08:00) dan sore hari (sekitar pukul 17:00), yang kemungkinan besar disebabkan oleh perjalanan kerja atau sekolah. Hal ini menunjukkan bahwa sepeda digunakan sebagai moda transportasi pada jam sibuk.
+
+# 2. Perbandingan Pola Penyewaan Sepeda pada Hari Kerja dan Akhir Pekan
+**Kesimpulan**: Jumlah penyewaan sepeda relatif seimbang antara hari kerja dan akhir pekan, tetapi pola penggunaannya mungkin berbeda. Hari kerja lebih didominasi oleh pengguna terdaftar, sedangkan akhir pekan lebih banyak digunakan oleh pengguna kasual untuk rekreasi.
+
+# 3. Pengaruh Cuaca terhadap Jumlah Penyewaan Sepeda
+**Kesimpulan**: Dari heatmap korelasi, terlihat bahwa faktor seperti temperatur (temp) memiliki korelasi positif terhadap jumlah penyewaan sepeda. Sebaliknya, kelembapan (hum) dan kecepatan angin (windspeed) memiliki korelasi negatif. Artinya, cuaca yang nyaman (suhu sedang, kelembapan rendah, dan angin tidak terlalu kencang) mendorong lebih banyak penyewaan sepeda.
+
+# 4. Pola Penyewaan Sepeda Berdasarkan Hari dalam Seminggu
+**Kesimpulan**: Penyewaan sepeda cenderung merata sepanjang minggu, tetapi sedikit menurun pada hari kerja tertentu (seperti Senin). Akhir pekan mungkin menunjukkan sedikit kenaikan, terutama untuk pengguna kasual.
+
+# 5. Hubungan antara Pengguna Terdaftar (Registered) dan Kasual (Casual)
+**Kesimpulan**: Ada perbedaan yang jelas antara pola penggunaan sepeda oleh pengguna terdaftar dan kasual. Pengguna terdaftar cenderung lebih konsisten setiap hari, terutama pada jam sibuk hari kerja. Pengguna kasual lebih banyak pada akhir pekan atau hari-hari libur, menunjukkan orientasi rekreasi.
+
+# 6. Pengaruh Workingday terhadap Penyewaan Sepeda
+**Kesimpulan**: Jumlah pengguna terdaftar lebih tinggi pada hari kerja, sedangkan pengguna kasual lebih banyak pada akhir pekan.
 """)
