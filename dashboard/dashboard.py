@@ -5,9 +5,6 @@ import seaborn as sns
 import streamlit as st
 import os
 
-# Tampilkan daftar file di direktori aplikasi
-st.write(os.listdir())
-
 
 # Baca dataset
 file_path_day = 'data/day.csv'  # Ganti dengan path sebenarnya ke file CSV Anda
