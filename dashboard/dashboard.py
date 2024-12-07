@@ -6,10 +6,10 @@ import streamlit as st
 
 
 # Baca dataset
-file_path = '../data/day.csv'  # Ganti dengan path sebenarnya ke file CSV Anda
-file_path = '../data/hour.csv'  # Ganti dengan path sebenarnya ke file CSV Anda
-data_day = pd.read_csv(file_path)
-data_hour = pd.read_csv(file_path)
+file_path_day = '../data/day.csv'  # Ganti dengan path sebenarnya ke file CSV Anda
+file_path_hour = '../data/hour.csv'  # Ganti dengan path sebenarnya ke file CSV Anda
+data_day = pd.read_csv(file_path_day)
+data_hour = pd.read_csv(file_path_hour)
 
 
 # Konversi kolom tanggal ke format datetime
