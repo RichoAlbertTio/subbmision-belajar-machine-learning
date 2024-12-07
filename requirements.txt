@@ -1,0 +1,6 @@
+
+pipreqs
+pandas
+matplotlib.pyplot 
+seaborn
+streamlit
