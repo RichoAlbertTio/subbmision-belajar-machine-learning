@@ -8,7 +8,7 @@
 
 ## Run Streamlit-app
 - cd Dashboard
-- streamlit run dashboard.py
+- streamlit run dashboard/dashboard.py
 
 ## Analisis Data dengan Python
 **Mendefinisikan pertanyaan bisnis**

@@ -63,8 +63,8 @@ if menu == "Analisis Data":
     # Kesimpulan
     st.subheader("Kesimpulan:")
     st.write("""
-    **1. Pengaruh Waktu terhadap Jumlah Penyewaan Sepeda:** Aktivitas penyewaan meningkat tajam pada pagi dan sore hari.  
-    **2. Hari Kerja vs Akhir Pekan:** Hari kerja didominasi pengguna terdaftar, akhir pekan oleh pengguna kasual.
+    **1. Pengaruh Waktu terhadap Jumlah Penyewaan Sepeda:** Penyewaan sepeda mencapai puncaknya pada jam sibuk, yaitu pukul 8 pagi dan pukul 5 sore, yang kemungkinan besar disebabkan oleh aktivitas berangkat dan pulang kerja.  
+    **2. Hari Kerja vs Akhir Pekan:** Hari kerja didominasi oleh pengguna terdaftar, sedangkan akhir pekan lebih banyak digunakan oleh pengguna kasual. Jumlah penyewaan sepeda juga lebih tinggi pada hari kerja dibandingkan dengan akhir pekan, menunjukkan bahwa sepeda lebih sering digunakan untuk keperluan komuter daripada rekreasi..
     """)
 
 # Biodata Pengguna
